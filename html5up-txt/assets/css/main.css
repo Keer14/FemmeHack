@@ -266,7 +266,8 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: center;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -2317,7 +2318,10 @@ input, select, textarea {
 
 			#header .logo p {
 				display: inline;
-				color: #C1CAC5;
+				color: #abacad;
+				font-style: italic;
+				font-size: 30px;
+
 			}
 
 /* Nav */
@@ -2523,8 +2527,8 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
+		border-top: solid 5px #4f68a7;
+		border-bottom: solid 5px #4f68a7;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 6em 0 6em 0;
